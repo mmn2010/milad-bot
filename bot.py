@@ -8,7 +8,7 @@ TOKEN = os.environ.get("TOKEN")
 
 # کلید OpenRouter
 OPENROUTER_KEY = os.environ.get("OPENROUTER_KEY")
-
+print("TOKEN =", TOKEN)
 
 # تابع هوش مصنوعی
 def ask_ai(text):
